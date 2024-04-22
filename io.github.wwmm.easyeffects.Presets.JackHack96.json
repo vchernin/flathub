@@ -1,0 +1,39 @@
+{
+    "id": "io.github.wwmm.easyeffects.Presets.JackHack96",
+    "runtime": "com.github.wwmm.easyeffects",
+    "sdk": "org.freedesktop.Sdk//23.08",
+    "branch": "stable",
+    "runtime-version": "stable",
+    "build-extension": true,
+    "separate-locales": false,
+    "modules": [
+        {
+            "name": "presets",
+            "buildsystem": "simple",
+            "build-commands": [
+                "install -Dm644 io.github.wwmm.easyeffects.Presets.JackHack96.metainfo.xml -t ${FLATPAK_DEST}/share/metainfo",
+                "install -Dm644 'Advanced Auto Gain.json' -t ${FLATPAK_DEST}/output/JackHack96",
+                "install -Dm644 'Bass Boosted.json' -t ${FLATPAK_DEST}/output/JackHack96",
+                "install -Dm644 'Bass Enhancing + Perfect EQ.json' -t ${FLATPAK_DEST}/output/JackHack96",
+                "install -Dm644 'Boosted.json' -t ${FLATPAK_DEST}/output/JackHack96",
+                "install -Dm644 'Loudness+Autogain.json' -t ${FLATPAK_DEST}/output/JackHack96",
+                "install -Dm644 'Perfect EQ.json' -t ${FLATPAK_DEST}/output/JackHack96",
+                "install -Dm644 'irs/Razor Surround ((48k Z-Edition)) 2.Stereo +20 bass.irs' -t ${FLATPAK_DEST}/irs/JackHack96"
+            ],
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://github.com/JackHack96/Easyeffects-Presets.git",
+                    "commit": "8a4499d34e6c461ecda548f077d49ddf8ba73e12",
+                    "x-checker-data": {
+                        "type": "json",
+                        "url": "https://api.github.com/repos/JackHack96/Easyeffects-Presets/commits",
+                        "commit-query": "first( .[].sha )",
+                        "version-query": "first( .[].sha )",
+                        "timestamp-query": "first( .[].commit.committer.date )"
+                    }
+                }
+            ]
+        }
+    ]
+}
