@@ -23,8 +23,8 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://github.com/JackHack96/Easyeffects-Presets.git",
-                    "commit": "8a4499d34e6c461ecda548f077d49ddf8ba73e12",
+                    "url": "https://github.com/vchernin/Easyeffects-Presets-JackHack96.git",
+                    "commit": "f4efe88691804f71320f273c94cbb64d75d21100",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/JackHack96/Easyeffects-Presets/commits",
